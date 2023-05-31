@@ -1,0 +1,51 @@
+h1{
+    color: red;
+    background-color: aliceblue;
+    text-align: center;
+    background-image: url(https://images.thequint.com/thequint%2F2023-02%2Fb5bc9d91-6304-4228-83bb-ffdc8c1d81c4%2FIPL_T20_Schedule_Mumbai_Indians.jpg);
+    
+    
+}
+body{
+    background-image: url(https://images.thequint.com/thequint%2F2023-02%2Fb5bc9d91-6304-4228-83bb-ffdc8c1d81c4%2FIPL_T20_Schedule_Mumbai_Indians.jpg);
+    background-size: cover;
+    border-style: dotted;
+}
+table{
+    background-color:brown;
+    text-transform: capitalize;
+    text-align: center;
+}
+ol{
+    text-align: center;
+}
+#pa{
+    float: left;
+    height: 5cm;
+    width: 5cm;
+
+}
+#pav{
+    float: right;
+    height: 5cm;
+    width: 5cm;
+
+}
+.img{
+    float: right;
+    height: 5cm;
+    width: 5cm;
+
+
+}
+.img2{
+    float: left;
+    height: 5cm;
+    width: 5cm;
+    
+
+}
+h1,h2,h3{
+    background-color: rgb(167, 56, 46);
+    text-align: center;
+}

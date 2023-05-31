@@ -1,0 +1,37 @@
+#i1{
+    height: 500px;
+    width: 500px;
+    transition-duration:4s ;
+}
+#i2{
+    height: 500px;
+    width: 500px;
+    transition-duration:4s ;
+}
+#i3{
+    height: 500px;
+    width: 500px;
+    transition-duration:4s ;
+}
+#i4{
+    height: 500px;
+    width: 500px;
+    transition-duration:4s ;
+}
+#i1:hover{
+    transform: rotate(360deg);
+
+
+}
+#i2:hover{
+    transform: scale(3);
+
+}
+#i3:hover{
+    transform: translate(200px);
+
+}
+#i4:hover{
+    transform: translatey(200px);
+
+}

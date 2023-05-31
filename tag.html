@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="id1">pawan</h1><br>
+    <h3 class="id1">reddy</h3><br>
+    <p class="id1">hellooo</p>
+    <button ondblclick="prn()">click</button><br>
+</body>
+<script>
+    // document.write("printing......")
+    function prn(){
+        var data=document.getElementsByClassName("id1")
+        for(let i=0;i<data.length;i++){
+            console.log(data[i].innerHTML)}
+        
+       
+    }
+    
+    localStorage.setItem("name","pawan")
+    localStorage.setItem("roll","24")
+    document.write(localStorage.getItem("name","roll"))
+    console.log(localStorage.getItem("name"))
+    console.log(localStorage.getItem("roll"))
+    function str(){
+        this.name="gani",
+        this.email="pawan@gmail.com"
+    }
+    // .prototype for new line content
+    str.prototype.num=6281443524
+    let a=new str();
+    console.log(a.num)
+// Promise
+// .resolve
+// .waiting
+// .reject
+
+    
+</script>
+
+</html>

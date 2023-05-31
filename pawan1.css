@@ -1,0 +1,21 @@
+.pa1{
+    height: 250px;
+    width: 250px;
+    background-image: url(https://1.bp.blogspot.com/-ixv-S7IUpX4/XsPDCqRXC6I/AAAAAAAAD5w/t25IK2izMLQUahMpVj4W0ZxVeY86D8OnACLcBGAsYHQ/s1600/%255BNew%255D%2BLetter%2BS%2BName%2BDp%2BPic%252C%2BImages%252C%2BWallpaper%252C%2BPhotos%2B%255B2020%255D%2B%252814%2529.jpg);
+    /* background-color: rgb(228, 20, 20); */
+    /* background-image: url("https://i.pinimg.com/750x/76/0f/82/760f821586edaae98e7e35f24c3fea3e.jpg"); */
+    transition-duration: 4s;
+    background-size: cover;
+
+}
+.pa1:hover{
+    height: 250px;
+    width: 250px;
+    /* background-image: url("https://www.bhaktiphotos.com/wp-content/uploads/2018/04/Hindu-Shiva-God-Wallpaper-Free-Download.jpg"); */
+    /* background-size: cover; */
+    /* transform: rotate(360deg); */
+    transform: translatey(200px);
+    /* transform: translate(200px); */
+    /* margin: 400px; */
+    
+}
